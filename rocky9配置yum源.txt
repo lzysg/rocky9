@@ -1,6 +1,6 @@
 cd /etc/yum.repos.d
 mkdir -p /mnt
-mr -rf *
+rm -rf *
 vi mnt.repo
 [a]
 gpgcheck=0
